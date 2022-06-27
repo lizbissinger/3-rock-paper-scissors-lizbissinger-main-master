@@ -75,9 +75,9 @@ class RockPaperScissors {
     if (determineWinner(userSelection, cpuSelection)){ 
       generateSPUResponse }
 
-      else if (this.score.cpu++); this.gameHistoryLog.push(username + "selected" + userSelection + ", CPU selected" + cpuSelection + ":" + username + "wins");
+      if (this.score.cpu++); this.gameHistoryLog.push(username + "selected" + userSelection + ", CPU selected" + cpuSelection + ":" + username + "wins");
 
-      else if (this.gameHistoryLog);
+       if (this.gameHistoryLog);
 
   }
 
